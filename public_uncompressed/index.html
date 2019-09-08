@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Back to the BatttleShip</title>
+    <link href=favicon.png rel=icon type=image/png>
+    <meta content="#eee" name="theme-color" />
+    <link href="m.json" rel="manifest" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="ov"><div class="s mo"></div></div>
+    <div id="a" class="s">
+      <div id="f"><button id="bck" class="ri">Back</button></div>
+      <div id="s1" class="srn">
+        <button id="so"></button> <button id="dev">👨‍💻</button>
+        <button id="sha">🔗</button>
+        <h1 class="st">Back to the BatttleShip</h1>
+        <h2 id="nm"></h2>
+        <div class="brs"><canvas id="b"></canvas></div>
+        <button id="rand" class="ri">Random Board</button>
+        <button id="vs" class="ri">Practice game</button>
+        <button id="ol" class="ri">Play Online</button>
+      </div>
+      <div id="s2" class="srn"></div>
+      <div id="md">
+        <div id="em-left"></div>
+        <div id="em-right"></div>
+      </div>
+      <div id="bm">
+        <div id="ejs"></div>
+        <button id="chat">💬</button>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/shared.js"></script>
+    <script src="/client.js"></script>
+    <script>
+      "serviceWorker" in navigator &&
+        (navigator.serviceWorker.register("/sw.js").then(function() {
+          console.log("SW Registered");
+        }),
+        navigator.serviceWorker.ready.then(function() {
+          console.log("SW Ready");
+        }));
+    </script>
+  </body>
+</html>
