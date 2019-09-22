@@ -4,9 +4,11 @@
 
 Juego realizado para la competencia [JS13K], inspirado en el juego [Batalla Naval], para está edición de la JS13k, el tema fue **[back]** de ahí el nombre de Back to the BatttleShip, la idea era realizar un juego que evocará el tiempo en el que se jugaba este juego en papel y lapiz, de ahí su diseño.
 
+## [Artículo post mortem]
+
 ## Objetivo.
 
-El usuatio podrá realizar las siguientes acciones:
+El usuario podrá realizar las siguientes acciones:
 
 * Crear un board aleatorio de la posición de los barcos en el escenario
 * **Practicar:** Podrá jugar partidas contra el PC, de esta forma podrá practicar cada vez que se requiera.
@@ -23,7 +25,7 @@ El proyecto es un fork del [repositorio] original de la competencia
 
 ### Instalción
 
-Descargar el repositorio y ejeuctar el comando:
+Descargar el repositorio y ejecutar el comando:
 
 ```
 npm install
@@ -49,3 +51,4 @@ MIT
 [public]:https://github.com/Jorger/Back-to-the-BatttleShip/tree/master/public
 [public_uncompressed]:https://github.com/Jorger/Back-to-the-BatttleShip/tree/master/public_uncompressed
 [repositorio]:https://github.com/js13kGames/js13kserver
+[Artículo post mortem]:https://medium.com/@ostjh/back-to-the-battleship-js13k-2019-bd137453ba60
